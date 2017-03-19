@@ -19,6 +19,12 @@ public class Employee
     {
         return name;
     }
+
+    public double getSalary()
+    {
+      return salary;
+    }
+
     public void raiseSalary(double byPercent)
     {
         double raise = salary * byPercent / 100;
