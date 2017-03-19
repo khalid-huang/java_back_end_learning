@@ -1,8 +1,9 @@
+// 每个类只能拓展一个类，但是可以实现多个接口
 package EmployeeClass;
 
 import java.util.*;
 
-public class Employee
+public class Employee implements Comparable<Employee>
 {
     private String name;
     private double salary;
@@ -29,5 +30,10 @@ public class Employee
     {
         double raise = salary * byPercent / 100;
         salary += raise;
+    }
+
+    public int compareTo(Employee other)
+    {
+      return Double.compare(salary, other.salary);
     }
 }
