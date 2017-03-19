@@ -1,0 +1,2 @@
+1）针对java的import和package的问题，可以参考http://benweizhu.github.io/blog/2014/04/07/write-java-code-without-ide/；其实过程就是在javac编译的时候，將classpath和sourcepath都设置为了当前目录，当看到有import employee.*;的时候就会根据这个目录生成关联的文件目录也就是<sourcepath>/employee,将这个目录里面在编译的文件中有用的用到的class进行javac，生成自己需要的；当进行java的时候，根据import employee.*;利用 <classpath>/employee来得到自己要引用的类；而package，就是将这个类生成什么包里面的什么
+
