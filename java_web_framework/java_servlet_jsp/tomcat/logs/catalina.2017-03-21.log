@@ -1,0 +1,94 @@
+21-Mar-2017 18:57:10.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+21-Mar-2017 18:57:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+21-Mar-2017 18:57:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+21-Mar-2017 18:57:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Mar-2017 18:57:10.515 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+21-Mar-2017 18:57:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2017 18:57:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+21-Mar-2017 18:57:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+21-Mar-2017 18:57:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2017 18:57:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/tomcat
+21-Mar-2017 18:57:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/tomcat
+21-Mar-2017 18:57:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/tomcat/conf/logging.properties
+21-Mar-2017 18:57:10.516 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2017 18:57:10.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2017 18:57:10.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Mar-2017 18:57:10.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/tomcat
+21-Mar-2017 18:57:10.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/tomcat
+21-Mar-2017 18:57:10.517 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/tomcat/temp
+21-Mar-2017 18:57:10.517 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+21-Mar-2017 18:57:11.246 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2017 18:57:11.315 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2017 18:57:11.318 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2017 18:57:11.331 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2017 18:57:11.332 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2018 ms
+21-Mar-2017 18:57:11.471 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+21-Mar-2017 18:57:11.471 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+21-Mar-2017 18:57:11.531 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/tomcat/webapps/manager
+21-Mar-2017 18:57:12.287 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/tomcat/webapps/manager has finished in 752 ms
+21-Mar-2017 18:57:12.288 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/tomcat/webapps/host-manager
+21-Mar-2017 18:57:12.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/tomcat/webapps/host-manager has finished in 28 ms
+21-Mar-2017 18:57:12.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/tomcat/webapps/docs
+21-Mar-2017 18:57:12.349 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/tomcat/webapps/docs has finished in 33 ms
+21-Mar-2017 18:57:12.350 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/tomcat/webapps/ROOT
+21-Mar-2017 18:57:12.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/tomcat/webapps/ROOT has finished in 22 ms
+21-Mar-2017 18:57:12.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/tomcat/webapps/examples
+21-Mar-2017 18:57:12.840 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/tomcat/webapps/examples has finished in 467 ms
+21-Mar-2017 18:57:12.844 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+21-Mar-2017 18:57:12.859 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+21-Mar-2017 18:57:12.861 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1529 ms
+21-Mar-2017 18:57:30.254 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+21-Mar-2017 18:57:30.255 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Mar-2017 18:57:30.308 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2017 18:57:30.360 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+21-Mar-2017 18:57:30.448 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Mar-2017 18:57:30.451 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2017 18:57:30.453 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Mar-2017 18:57:30.457 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2017 19:21:31.772 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+21-Mar-2017 19:21:31.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+21-Mar-2017 19:21:31.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+21-Mar-2017 19:21:31.777 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+21-Mar-2017 19:21:31.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+21-Mar-2017 19:21:31.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+21-Mar-2017 19:21:31.778 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+21-Mar-2017 19:21:31.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+21-Mar-2017 19:21:31.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+21-Mar-2017 19:21:31.779 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/tomcat
+21-Mar-2017 19:21:31.780 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/tomcat
+21-Mar-2017 19:21:31.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/tomcat/conf/logging.properties
+21-Mar-2017 19:21:31.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+21-Mar-2017 19:21:31.781 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+21-Mar-2017 19:21:31.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+21-Mar-2017 19:21:31.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/tomcat
+21-Mar-2017 19:21:31.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/tomcat
+21-Mar-2017 19:21:31.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/tomcat/temp
+21-Mar-2017 19:21:31.783 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+21-Mar-2017 19:21:31.966 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+21-Mar-2017 19:21:31.984 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2017 19:21:31.987 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+21-Mar-2017 19:21:31.999 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+21-Mar-2017 19:21:32.000 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 749 ms
+21-Mar-2017 19:21:32.034 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+21-Mar-2017 19:21:32.035 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+21-Mar-2017 19:21:32.048 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/tomcat/webapps/manager
+21-Mar-2017 19:21:32.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/tomcat/webapps/manager has finished in 417 ms
+21-Mar-2017 19:21:32.465 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/tomcat/webapps/host-manager
+21-Mar-2017 19:21:32.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/tomcat/webapps/host-manager has finished in 28 ms
+21-Mar-2017 19:21:32.494 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/tomcat/webapps/docs
+21-Mar-2017 19:21:32.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/tomcat/webapps/docs has finished in 31 ms
+21-Mar-2017 19:21:32.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/tomcat/webapps/ROOT
+21-Mar-2017 19:21:32.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/tomcat/webapps/ROOT has finished in 30 ms
+21-Mar-2017 19:21:32.557 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/tomcat/webapps/examples
+21-Mar-2017 19:21:32.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/tomcat/webapps/examples has finished in 403 ms
+21-Mar-2017 19:21:32.963 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+21-Mar-2017 19:21:32.975 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+21-Mar-2017 19:21:32.977 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 976 ms
+21-Mar-2017 19:26:29.185 WARNING [http-nio-8080-exec-3] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user ""
+21-Mar-2017 19:26:29.372 WARNING [http-nio-8080-exec-7] org.apache.catalina.realm.LockOutRealm.filterLockedAccounts An attempt was made to authenticate the locked user ""
+21-Mar-2017 19:28:23.037 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+21-Mar-2017 19:28:23.038 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+21-Mar-2017 19:28:23.098 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+21-Mar-2017 19:28:33.100 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+21-Mar-2017 19:28:33.101 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+21-Mar-2017 19:28:33.132 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
