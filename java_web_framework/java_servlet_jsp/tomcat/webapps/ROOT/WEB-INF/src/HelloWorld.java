@@ -1,6 +1,3 @@
-package classes;
-
-
 // 导入必需的 java 库
 import java.io.*;
 import javax.servlet.*;

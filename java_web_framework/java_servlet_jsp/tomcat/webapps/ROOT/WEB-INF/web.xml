@@ -26,9 +26,18 @@
         <servlet-class>HelloWorld</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>DisplayHeader</servlet-name>
+        <servlet-class>DisplayHeader</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/HelloWorld</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>DisplayHeader</servlet-name>
+        <url-pattern>/DisplayHeader</url-pattern>
+    </servlet-mapping>
 </web-app>
