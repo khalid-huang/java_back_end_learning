@@ -1,1 +1,2 @@
-tomcat里面的java文件还是放在class文件里面，因为使用了package字段后，其实这个关键字不是指定了放的目录，更多的是有一个包的概念，要区分好；但也可以放在src里面，不过命令要改为javac -d classes/ src/*.java
+1)tomcat里面的java文件还是放在class文件里面，因为使用了package字段后，其实这个关键字不是指定了放的目录，更多的是有一个包的概念，要区分好；但也可以放在src里面，不过命令要改为javac -d classes/ src/*.java
+2)_ tomcat的日志: tailf -f catalina.out;
