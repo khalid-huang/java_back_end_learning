@@ -849,3 +849,1060 @@ Caused by: java.net.BindException: Address already in use
 22-Mar-2017 16:34:49.207 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 22-Mar-2017 16:34:49.209 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 22-Mar-2017 16:34:49.210 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:13:00.488 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 21:13:00.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 21:13:00.492 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 21:13:00.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 21:13:00.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 21:13:00.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 21:13:00.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 21:13:00.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 21:13:00.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 21:13:00.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:13:00.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:13:00.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 21:13:00.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 21:13:00.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 21:13:00.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 21:13:00.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:13:00.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:13:00.495 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 21:13:00.495 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 21:13:00.864 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:13:00.897 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:13:00.902 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:13:00.912 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:13:00.913 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1836 ms
+22-Mar-2017 21:13:00.999 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 21:13:01.000 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 21:13:01.020 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 21:13:01.855 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 834 ms
+22-Mar-2017 21:13:01.855 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 21:13:01.913 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 57 ms
+22-Mar-2017 21:13:01.913 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 21:13:01.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 31 ms
+22-Mar-2017 21:13:01.944 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 21:13:01.993 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 49 ms
+22-Mar-2017 21:13:01.994 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 21:13:02.069 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+22-Mar-2017 21:13:02.070 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+22-Mar-2017 21:13:02.149 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 156 ms
+22-Mar-2017 21:13:02.149 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 21:13:02.713 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 564 ms
+22-Mar-2017 21:13:02.716 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 21:13:02.729 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 21:13:02.732 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1818 ms
+22-Mar-2017 21:17:02.040 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:17:02.097 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:17:02.148 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 21:17:02.179 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:17:02.180 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:17:02.183 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:17:02.184 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:17:06.354 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 21:17:06.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 21:17:06.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 21:17:06.357 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 21:17:06.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 21:17:06.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 21:17:06.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 21:17:06.358 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 21:17:06.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 21:17:06.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:17:06.359 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:17:06.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 21:17:06.360 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 21:17:06.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 21:17:06.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 21:17:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:17:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:17:06.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 21:17:06.363 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 21:17:06.555 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:17:06.577 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:17:06.582 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:17:06.584 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:17:06.584 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 730 ms
+22-Mar-2017 21:17:06.617 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 21:17:06.617 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 21:17:06.631 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 21:17:07.090 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 459 ms
+22-Mar-2017 21:17:07.091 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 21:17:07.122 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 30 ms
+22-Mar-2017 21:17:07.122 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 21:17:07.141 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 19 ms
+22-Mar-2017 21:17:07.141 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 21:17:07.181 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 40 ms
+22-Mar-2017 21:17:07.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 21:17:07.210 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 28 ms
+22-Mar-2017 21:17:07.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 21:17:07.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 327 ms
+22-Mar-2017 21:17:07.542 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 21:17:07.555 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 21:17:07.558 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 973 ms
+22-Mar-2017 21:24:17.627 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+22-Mar-2017 21:24:17.628 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+22-Mar-2017 21:24:17.689 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+22-Mar-2017 21:25:07.696 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+22-Mar-2017 21:25:07.697 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+22-Mar-2017 21:25:07.737 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+22-Mar-2017 21:26:27.747 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+22-Mar-2017 21:26:27.748 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+22-Mar-2017 21:26:27.786 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+22-Mar-2017 21:28:57.807 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+22-Mar-2017 21:28:57.808 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+22-Mar-2017 21:28:57.839 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 79 column 7: The element type "location" must be terminated by the matching end-tag "</location>".
+ org.xml.sax.SAXParseException; systemId: file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml; lineNumber: 79; columnNumber: 7; The element type "location" must be terminated by the matching end-tag "</location>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5114)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3809)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1377)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1350)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Mar-2017 21:28:57.841 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml
+ org.xml.sax.SAXParseException; systemId: file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml; lineNumber: 79; columnNumber: 7; The element type "location" must be terminated by the matching end-tag "</location>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5114)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3809)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1377)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1350)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Mar-2017 21:28:57.842 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line 79 column 7
+22-Mar-2017 21:28:57.848 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+22-Mar-2017 21:28:57.849 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+22-Mar-2017 21:28:57.849 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+22-Mar-2017 21:28:57.853 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+22-Mar-2017 21:30:07.862 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+22-Mar-2017 21:30:07.868 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 79 column 7: The element type "location" must be terminated by the matching end-tag "</location>".
+ org.xml.sax.SAXParseException; systemId: file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml; lineNumber: 79; columnNumber: 7; The element type "location" must be terminated by the matching end-tag "</location>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5114)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1386)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1350)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Mar-2017 21:30:07.869 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml
+ org.xml.sax.SAXParseException; systemId: file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml; lineNumber: 79; columnNumber: 7; The element type "location" must be terminated by the matching end-tag "</location>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5114)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1386)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1350)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Mar-2017 21:30:07.869 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line 79 column 7
+22-Mar-2017 21:30:07.873 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+22-Mar-2017 21:30:07.873 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+22-Mar-2017 21:30:07.874 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+22-Mar-2017 21:33:06.490 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:33:06.495 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:33:06.496 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 21:33:06.527 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:33:06.531 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:33:06.536 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:33:06.538 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:33:08.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 21:33:09.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 21:33:09.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 21:33:09.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 21:33:09.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 21:33:09.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 21:33:09.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 21:33:09.003 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 21:33:09.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 21:33:09.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:33:09.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:33:09.004 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 21:33:09.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 21:33:09.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 21:33:09.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 21:33:09.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:33:09.005 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:33:09.006 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 21:33:09.006 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 21:33:09.279 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:33:09.308 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:33:09.315 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:33:09.318 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:33:09.319 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1163 ms
+22-Mar-2017 21:33:09.372 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 21:33:09.373 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 21:33:09.397 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 21:33:10.168 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 770 ms
+22-Mar-2017 21:33:10.169 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 21:33:10.232 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 63 ms
+22-Mar-2017 21:33:10.233 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 21:33:10.258 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 25 ms
+22-Mar-2017 21:33:10.259 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 21:33:10.324 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 66 ms
+22-Mar-2017 21:33:10.325 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 21:33:10.359 SEVERE [localhost-startStop-1] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 79 column 7: The element type "location" must be terminated by the matching end-tag "</location>".
+ org.xml.sax.SAXParseException; systemId: file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml; lineNumber: 79; columnNumber: 7; The element type "location" must be terminated by the matching end-tag "</location>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5114)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Mar-2017 21:33:10.364 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml
+ org.xml.sax.SAXParseException; systemId: file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml; lineNumber: 79; columnNumber: 7; The element type "location" must be terminated by the matching end-tag "</location>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5114)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Mar-2017 21:33:10.365 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line 79 column 7
+22-Mar-2017 21:33:10.370 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+22-Mar-2017 21:33:10.374 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+22-Mar-2017 21:33:10.374 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+22-Mar-2017 21:33:10.396 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 71 ms
+22-Mar-2017 21:33:10.397 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 21:33:11.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 718 ms
+22-Mar-2017 21:33:11.126 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 21:33:11.184 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 21:33:11.186 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1867 ms
+22-Mar-2017 21:33:57.588 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:33:57.645 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:33:57.696 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 21:33:57.737 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:33:57.739 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:33:57.741 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:33:57.742 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:33:59.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 21:33:59.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 21:33:59.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 21:33:59.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 21:33:59.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 21:33:59.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 21:33:59.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 21:33:59.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 21:33:59.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 21:33:59.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:33:59.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:33:59.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 21:33:59.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 21:33:59.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 21:33:59.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 21:33:59.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:33:59.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:33:59.389 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 21:33:59.390 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 21:33:59.572 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:33:59.594 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:33:59.597 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:33:59.599 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:33:59.601 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 684 ms
+22-Mar-2017 21:33:59.633 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 21:33:59.634 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 21:33:59.645 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 21:34:00.099 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 454 ms
+22-Mar-2017 21:34:00.099 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 21:34:00.130 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 30 ms
+22-Mar-2017 21:34:00.130 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 21:34:00.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 20 ms
+22-Mar-2017 21:34:00.151 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 21:34:00.190 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 39 ms
+22-Mar-2017 21:34:00.190 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 21:34:00.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 27 ms
+22-Mar-2017 21:34:00.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 21:34:00.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 320 ms
+22-Mar-2017 21:34:00.542 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 21:34:00.557 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 21:34:00.568 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 966 ms
+22-Mar-2017 21:35:28.135 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:35:28.194 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:35:28.245 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 21:35:28.292 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:35:28.295 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:35:28.297 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:35:28.299 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:41:24.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 21:41:24.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 21:41:24.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 21:41:24.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 21:41:24.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 21:41:24.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 21:41:24.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 21:41:24.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 21:41:24.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 21:41:24.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:41:24.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:41:24.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 21:41:24.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 21:41:24.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 21:41:24.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 21:41:24.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:41:24.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:41:24.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 21:41:24.406 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 21:41:24.597 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:41:24.615 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:41:24.618 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:41:24.620 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:41:24.621 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 729 ms
+22-Mar-2017 21:41:24.659 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 21:41:24.659 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 21:41:24.675 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 21:41:25.158 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 484 ms
+22-Mar-2017 21:41:25.159 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 21:41:25.187 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 29 ms
+22-Mar-2017 21:41:25.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 21:41:25.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 18 ms
+22-Mar-2017 21:41:25.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 21:41:25.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 40 ms
+22-Mar-2017 21:41:25.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 21:41:25.275 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 29 ms
+22-Mar-2017 21:41:25.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 21:41:25.596 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 321 ms
+22-Mar-2017 21:41:25.600 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 21:41:25.617 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 21:41:25.619 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 998 ms
+22-Mar-2017 21:41:34.075 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:41:34.133 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:41:34.184 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 21:41:34.232 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:41:34.234 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:41:34.236 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:41:34.237 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:42:18.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 21:42:18.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 21:42:18.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 21:42:18.821 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 21:42:18.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 21:42:18.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 21:42:18.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 21:42:18.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 21:42:18.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 21:42:18.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:42:18.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:42:18.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 21:42:18.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 21:42:18.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 21:42:18.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 21:42:18.823 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:42:18.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 21:42:18.824 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 21:42:18.824 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 21:42:19.018 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 21:42:19.044 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:42:19.049 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 21:42:19.054 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 21:42:19.054 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 720 ms
+22-Mar-2017 21:42:19.097 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 21:42:19.097 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 21:42:19.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 21:42:19.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 468 ms
+22-Mar-2017 21:42:19.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 21:42:19.608 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 27 ms
+22-Mar-2017 21:42:19.608 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 21:42:19.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 22 ms
+22-Mar-2017 21:42:19.630 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 21:42:19.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 42 ms
+22-Mar-2017 21:42:19.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 21:42:19.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 29 ms
+22-Mar-2017 21:42:19.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 21:42:20.025 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 323 ms
+22-Mar-2017 21:42:20.029 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 21:42:20.044 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 21:42:20.046 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 991 ms
+22-Mar-2017 22:05:50.266 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+22-Mar-2017 22:05:50.267 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+22-Mar-2017 22:05:50.297 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 78 column 34: The element type "url-attern" must be terminated by the matching end-tag "</url-attern>".
+ org.xml.sax.SAXParseException; systemId: file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml; lineNumber: 78; columnNumber: 34; The element type "url-attern" must be terminated by the matching end-tag "</url-attern>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5114)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3809)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1377)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1350)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Mar-2017 22:05:50.302 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml
+ org.xml.sax.SAXParseException; systemId: file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml; lineNumber: 78; columnNumber: 34; The element type "url-attern" must be terminated by the matching end-tag "</url-attern>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5114)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3809)
+	at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1377)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1350)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1586)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:280)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1164)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1388)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1392)
+	at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1360)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Mar-2017 22:05:50.303 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line 78 column 34
+22-Mar-2017 22:05:50.310 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+22-Mar-2017 22:05:50.311 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+22-Mar-2017 22:05:50.313 SEVERE [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+22-Mar-2017 22:05:50.321 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+22-Mar-2017 22:05:55.723 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:05:55.780 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:05:55.831 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 22:05:55.872 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:05:55.874 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:05:55.876 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:05:55.877 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:05:58.887 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 22:05:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 22:05:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 22:05:58.891 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 22:05:58.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 22:05:58.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 22:05:58.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 22:05:58.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 22:05:58.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 22:05:58.892 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:05:58.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:05:58.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 22:05:58.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 22:05:58.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 22:05:58.893 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 22:05:58.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:05:58.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:05:58.894 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 22:05:58.894 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 22:05:59.093 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:05:59.115 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:05:59.118 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:05:59.120 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:05:59.122 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 770 ms
+22-Mar-2017 22:05:59.155 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 22:05:59.156 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 22:05:59.168 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 22:05:59.574 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 406 ms
+22-Mar-2017 22:05:59.575 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 22:05:59.605 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 29 ms
+22-Mar-2017 22:05:59.605 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 22:05:59.629 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 23 ms
+22-Mar-2017 22:05:59.629 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 22:05:59.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 130 ms
+22-Mar-2017 22:05:59.759 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 22:05:59.779 SEVERE [localhost-startStop-1] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 78 column 34: The element type "url-attern" must be terminated by the matching end-tag "</url-attern>".
+ org.xml.sax.SAXParseException; systemId: file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml; lineNumber: 78; columnNumber: 34; The element type "url-attern" must be terminated by the matching end-tag "</url-attern>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5114)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Mar-2017 22:05:59.781 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Parse error in application web.xml file at file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml
+ org.xml.sax.SAXParseException; systemId: file:/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT/WEB-INF/web.xml; lineNumber: 78; columnNumber: 34; The element type "url-attern" must be terminated by the matching end-tag "</url-attern>".
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanEndElement(XMLDocumentFragmentScannerImpl.java:1749)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2967)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:841)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:770)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1458)
+	at org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml(WebXmlParser.java:119)
+	at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1114)
+	at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:775)
+	at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:299)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5114)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1107)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1841)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+22-Mar-2017 22:05:59.782 SEVERE [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXmlParser.parseWebXml Occurred at line 78 column 34
+22-Mar-2017 22:05:59.787 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.configureStart Marking this application unavailable due to previous error(s)
+22-Mar-2017 22:05:59.788 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal One or more components marked the context as not correctly configured
+22-Mar-2017 22:05:59.789 SEVERE [localhost-startStop-1] org.apache.catalina.core.StandardContext.startInternal Context [] startup failed due to previous errors
+22-Mar-2017 22:05:59.801 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 41 ms
+22-Mar-2017 22:05:59.801 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 22:06:00.143 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 342 ms
+22-Mar-2017 22:06:00.147 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 22:06:00.158 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 22:06:00.160 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1038 ms
+22-Mar-2017 22:06:20.036 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:06:20.096 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:06:20.148 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 22:06:20.193 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:06:20.196 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:06:20.198 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:06:20.200 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:06:23.402 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 22:06:23.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 22:06:23.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 22:06:23.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 22:06:23.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 22:06:23.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 22:06:23.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 22:06:23.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 22:06:23.406 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 22:06:23.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:06:23.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:06:23.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 22:06:23.407 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 22:06:23.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 22:06:23.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 22:06:23.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:06:23.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:06:23.408 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 22:06:23.408 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 22:06:23.608 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:06:23.628 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:06:23.632 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:06:23.634 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:06:23.635 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 717 ms
+22-Mar-2017 22:06:23.676 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 22:06:23.677 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 22:06:23.689 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 22:06:24.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 455 ms
+22-Mar-2017 22:06:24.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 22:06:24.174 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 29 ms
+22-Mar-2017 22:06:24.174 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 22:06:24.195 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 20 ms
+22-Mar-2017 22:06:24.195 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 22:06:24.325 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 130 ms
+22-Mar-2017 22:06:24.325 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 22:06:24.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 33 ms
+22-Mar-2017 22:06:24.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 22:06:24.662 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 303 ms
+22-Mar-2017 22:06:24.666 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 22:06:24.682 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 22:06:24.686 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1050 ms
+22-Mar-2017 22:06:43.078 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:06:43.135 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:06:43.187 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 22:06:43.235 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:06:43.237 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:06:43.239 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:06:43.240 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:07:01.822 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 22:07:01.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 22:07:01.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 22:07:01.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 22:07:01.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 22:07:01.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 22:07:01.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 22:07:01.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 22:07:01.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 22:07:01.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:07:01.826 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:07:01.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 22:07:01.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 22:07:01.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 22:07:01.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 22:07:01.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:07:01.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:07:01.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 22:07:01.828 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 22:07:02.026 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:07:02.045 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:07:02.048 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:07:02.059 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:07:02.059 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 709 ms
+22-Mar-2017 22:07:02.093 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 22:07:02.094 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 22:07:02.106 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 22:07:02.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 419 ms
+22-Mar-2017 22:07:02.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 22:07:02.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 26 ms
+22-Mar-2017 22:07:02.553 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 22:07:02.575 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 22 ms
+22-Mar-2017 22:07:02.576 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 22:07:02.710 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 135 ms
+22-Mar-2017 22:07:02.710 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 22:07:02.741 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 31 ms
+22-Mar-2017 22:07:02.742 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 22:07:03.068 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 326 ms
+22-Mar-2017 22:07:03.071 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 22:07:03.092 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 22:07:03.095 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1035 ms
+22-Mar-2017 22:08:10.213 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:08:10.272 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:08:10.324 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 22:08:10.362 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:08:10.363 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:08:10.365 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:08:10.367 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:08:14.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 22:08:14.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 22:08:14.993 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 22:08:14.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 22:08:14.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 22:08:14.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 22:08:14.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 22:08:14.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 22:08:14.994 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 22:08:14.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:08:14.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:08:14.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 22:08:14.995 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 22:08:14.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 22:08:14.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 22:08:14.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:08:14.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:08:14.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 22:08:14.996 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 22:08:15.195 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:08:15.216 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:08:15.219 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:08:15.222 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:08:15.222 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 740 ms
+22-Mar-2017 22:08:15.256 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 22:08:15.256 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 22:08:15.267 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 22:08:15.677 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 410 ms
+22-Mar-2017 22:08:15.677 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 22:08:15.709 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 32 ms
+22-Mar-2017 22:08:15.710 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 22:08:15.733 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 24 ms
+22-Mar-2017 22:08:15.733 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 22:08:15.859 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 125 ms
+22-Mar-2017 22:08:15.859 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 22:08:15.891 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 31 ms
+22-Mar-2017 22:08:15.891 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 22:08:16.234 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 343 ms
+22-Mar-2017 22:08:16.240 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 22:08:16.259 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 22:08:16.267 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1044 ms
+22-Mar-2017 22:09:14.600 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:09:14.657 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:09:14.709 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 22:09:14.760 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:09:14.762 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:09:14.765 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:09:14.766 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:09:19.835 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 22:09:19.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 22:09:19.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 22:09:19.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 22:09:19.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 22:09:19.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 22:09:19.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 22:09:19.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 22:09:19.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 22:09:19.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:09:19.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:09:19.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 22:09:19.840 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 22:09:19.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 22:09:19.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 22:09:19.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:09:19.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:09:19.841 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 22:09:19.842 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 22:09:20.037 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:09:20.057 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:09:20.062 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:09:20.069 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:09:20.071 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 728 ms
+22-Mar-2017 22:09:20.111 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 22:09:20.112 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 22:09:20.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 22:09:20.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 470 ms
+22-Mar-2017 22:09:20.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 22:09:20.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 31 ms
+22-Mar-2017 22:09:20.633 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 22:09:20.653 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 19 ms
+22-Mar-2017 22:09:20.653 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 22:09:20.776 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 123 ms
+22-Mar-2017 22:09:20.777 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 22:09:20.806 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 29 ms
+22-Mar-2017 22:09:20.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 22:09:21.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 325 ms
+22-Mar-2017 22:09:21.137 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 22:09:21.155 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 22:09:21.159 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1088 ms
+22-Mar-2017 22:10:05.448 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:10:05.507 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:10:05.559 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 22:10:05.604 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:10:05.606 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:10:05.608 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:10:05.609 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:10:12.283 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 22:10:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 22:10:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 22:10:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 22:10:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 22:10:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 22:10:12.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 22:10:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 22:10:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 22:10:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:10:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:10:12.287 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 22:10:12.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 22:10:12.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 22:10:12.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 22:10:12.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:10:12.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:10:12.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 22:10:12.289 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 22:10:12.486 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:10:12.514 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:10:12.518 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:10:12.521 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:10:12.522 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 752 ms
+22-Mar-2017 22:10:12.567 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 22:10:12.568 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 22:10:12.583 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 22:10:13.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 435 ms
+22-Mar-2017 22:10:13.019 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 22:10:13.048 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 29 ms
+22-Mar-2017 22:10:13.049 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 22:10:13.071 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 22 ms
+22-Mar-2017 22:10:13.071 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 22:10:13.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 140 ms
+22-Mar-2017 22:10:13.212 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 22:10:13.245 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 32 ms
+22-Mar-2017 22:10:13.245 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 22:10:13.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 335 ms
+22-Mar-2017 22:10:13.585 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 22:10:13.602 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 22:10:13.605 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1082 ms
+22-Mar-2017 22:10:27.964 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:10:28.020 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:10:28.071 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 22:10:28.120 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:10:28.122 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:10:28.125 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:10:28.126 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:10:35.760 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 22:10:35.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 22:10:35.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 22:10:35.763 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 22:10:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 22:10:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 22:10:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 22:10:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 22:10:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 22:10:35.764 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:10:35.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:10:35.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 22:10:35.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 22:10:35.765 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 22:10:35.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 22:10:35.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:10:35.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:10:35.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 22:10:35.766 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 22:10:35.976 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:10:36.002 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:10:36.006 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:10:36.008 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:10:36.009 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 752 ms
+22-Mar-2017 22:10:36.046 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 22:10:36.046 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 22:10:36.060 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 22:10:36.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 477 ms
+22-Mar-2017 22:10:36.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 22:10:36.566 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 28 ms
+22-Mar-2017 22:10:36.566 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 22:10:36.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 21 ms
+22-Mar-2017 22:10:36.587 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 22:10:36.725 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 138 ms
+22-Mar-2017 22:10:36.725 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 22:10:36.756 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 31 ms
+22-Mar-2017 22:10:36.756 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 22:10:37.247 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 491 ms
+22-Mar-2017 22:10:37.252 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 22:10:37.274 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 22:10:37.278 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1268 ms
+22-Mar-2017 22:13:29.723 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:13:29.780 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:13:29.831 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+22-Mar-2017 22:13:29.886 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:13:29.887 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:13:29.892 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:13:29.893 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:20:55.600 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+22-Mar-2017 22:20:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+22-Mar-2017 22:20:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+22-Mar-2017 22:20:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+22-Mar-2017 22:20:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+22-Mar-2017 22:20:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+22-Mar-2017 22:20:55.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+22-Mar-2017 22:20:55.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+22-Mar-2017 22:20:55.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+22-Mar-2017 22:20:55.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:20:55.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:20:55.605 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+22-Mar-2017 22:20:55.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Mar-2017 22:20:55.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+22-Mar-2017 22:20:55.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Mar-2017 22:20:55.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:20:55.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+22-Mar-2017 22:20:55.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+22-Mar-2017 22:20:55.607 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+22-Mar-2017 22:20:55.827 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+22-Mar-2017 22:20:55.855 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:20:55.863 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+22-Mar-2017 22:20:55.865 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+22-Mar-2017 22:20:55.867 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 819 ms
+22-Mar-2017 22:20:55.917 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+22-Mar-2017 22:20:55.917 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+22-Mar-2017 22:20:55.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+22-Mar-2017 22:20:56.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 510 ms
+22-Mar-2017 22:20:56.446 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+22-Mar-2017 22:20:56.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 28 ms
+22-Mar-2017 22:20:56.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+22-Mar-2017 22:20:56.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 26 ms
+22-Mar-2017 22:20:56.500 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+22-Mar-2017 22:20:56.640 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 140 ms
+22-Mar-2017 22:20:56.640 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+22-Mar-2017 22:20:56.679 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 39 ms
+22-Mar-2017 22:20:56.680 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+22-Mar-2017 22:20:57.058 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 378 ms
+22-Mar-2017 22:20:57.063 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+22-Mar-2017 22:20:57.079 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+22-Mar-2017 22:20:57.081 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1214 ms
