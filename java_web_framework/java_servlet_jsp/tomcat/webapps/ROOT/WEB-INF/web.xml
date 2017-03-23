@@ -52,8 +52,18 @@
     </servlet>
 
     <servlet>
-      <servlet-name> SessionTrack</servlet-name>
+      <servlet-name>SessionTrack</servlet-name>
       <servlet-class>SessionTrack</servlet-class>
+    </servlet>
+
+    <servlet>
+      <servlet-name>DatabaseAccess</servlet-name>
+      <servlet-class>DatabaseAccess</servlet-class>
+    </servlet>
+
+    <servlet>
+      <servlet-name>PageRedirect</servlet-name>
+      <servlet-class>PageRedirect</servlet-class>
     </servlet>
 
     <!-- 对应的mapping信息 -->
@@ -76,6 +86,16 @@
     <servlet-mapping>
       <servlet-name>SessionTrack</servlet-name>
       <url-pattern>/SessionTrack</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>DatabaseAccess</servlet-name>
+      <url-pattern>/DatabaseAccess</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+      <servlet-name>PageRedirect</servlet-name>
+      <url-pattern>/PageRedirect</url-pattern>
     </servlet-mapping>
 
     <!-- error-code 相关的页面 -->

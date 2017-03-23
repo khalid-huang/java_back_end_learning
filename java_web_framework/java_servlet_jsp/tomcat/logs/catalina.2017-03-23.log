@@ -5,3 +5,375 @@
 23-Mar-2017 00:05:11.181 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 23-Mar-2017 00:05:11.215 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 23-Mar-2017 00:05:11.218 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:40:21.188 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+23-Mar-2017 09:40:21.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+23-Mar-2017 09:40:21.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+23-Mar-2017 09:40:21.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Mar-2017 09:40:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+23-Mar-2017 09:40:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Mar-2017 09:40:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+23-Mar-2017 09:40:21.204 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+23-Mar-2017 09:40:21.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Mar-2017 09:40:21.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:40:21.205 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:40:21.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+23-Mar-2017 09:40:21.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Mar-2017 09:40:21.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Mar-2017 09:40:21.206 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Mar-2017 09:40:21.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:40:21.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:40:21.207 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+23-Mar-2017 09:40:21.207 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+23-Mar-2017 09:40:21.904 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:40:21.993 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 09:40:22.023 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:40:22.027 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 09:40:22.028 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1753 ms
+23-Mar-2017 09:40:22.140 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+23-Mar-2017 09:40:22.141 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+23-Mar-2017 09:40:22.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+23-Mar-2017 09:40:23.203 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:40:23.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 1,227 ms
+23-Mar-2017 09:40:23.433 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+23-Mar-2017 09:40:23.594 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:40:23.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 164 ms
+23-Mar-2017 09:40:23.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+23-Mar-2017 09:40:23.717 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:40:23.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 123 ms
+23-Mar-2017 09:40:23.720 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+23-Mar-2017 09:40:23.822 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:40:23.827 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 107 ms
+23-Mar-2017 09:40:23.827 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+23-Mar-2017 09:40:23.964 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:40:23.968 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 141 ms
+23-Mar-2017 09:40:23.968 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+23-Mar-2017 09:40:24.521 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:40:24.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 574 ms
+23-Mar-2017 09:40:24.549 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+23-Mar-2017 09:40:24.563 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+23-Mar-2017 09:40:24.566 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2537 ms
+23-Mar-2017 09:40:25.328 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:40:25.406 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:40:25.458 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+23-Mar-2017 09:40:25.540 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:40:25.547 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:40:25.565 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:40:25.566 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:42:29.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+23-Mar-2017 09:42:29.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+23-Mar-2017 09:42:29.096 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+23-Mar-2017 09:42:29.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Mar-2017 09:42:29.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+23-Mar-2017 09:42:29.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Mar-2017 09:42:29.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+23-Mar-2017 09:42:29.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+23-Mar-2017 09:42:29.097 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Mar-2017 09:42:29.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:42:29.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:42:29.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+23-Mar-2017 09:42:29.098 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Mar-2017 09:42:29.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Mar-2017 09:42:29.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Mar-2017 09:42:29.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:42:29.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:42:29.099 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+23-Mar-2017 09:42:29.099 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+23-Mar-2017 09:42:29.318 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:42:29.343 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 09:42:29.347 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:42:29.351 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 09:42:29.351 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 772 ms
+23-Mar-2017 09:42:29.391 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+23-Mar-2017 09:42:29.391 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+23-Mar-2017 09:42:29.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+23-Mar-2017 09:42:29.995 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:42:30.039 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 633 ms
+23-Mar-2017 09:42:30.039 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+23-Mar-2017 09:42:30.183 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:42:30.186 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 147 ms
+23-Mar-2017 09:42:30.186 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+23-Mar-2017 09:42:30.300 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:42:30.302 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 116 ms
+23-Mar-2017 09:42:30.303 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+23-Mar-2017 09:42:30.400 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:42:30.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 102 ms
+23-Mar-2017 09:42:30.405 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+23-Mar-2017 09:42:30.518 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:42:30.523 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 117 ms
+23-Mar-2017 09:42:30.523 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+23-Mar-2017 09:42:30.873 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:42:30.893 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 370 ms
+23-Mar-2017 09:42:30.898 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+23-Mar-2017 09:42:30.913 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+23-Mar-2017 09:42:30.921 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1569 ms
+23-Mar-2017 09:50:21.006 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+23-Mar-2017 09:50:21.007 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+23-Mar-2017 09:50:21.152 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:50:21.155 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+23-Mar-2017 09:50:27.549 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:50:27.602 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:50:27.654 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+23-Mar-2017 09:50:27.705 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:50:27.707 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:50:27.709 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:50:27.710 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:51:21.844 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+23-Mar-2017 09:51:21.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+23-Mar-2017 09:51:21.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+23-Mar-2017 09:51:21.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Mar-2017 09:51:21.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+23-Mar-2017 09:51:21.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Mar-2017 09:51:21.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+23-Mar-2017 09:51:21.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+23-Mar-2017 09:51:21.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Mar-2017 09:51:21.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:51:21.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:51:21.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+23-Mar-2017 09:51:21.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Mar-2017 09:51:21.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Mar-2017 09:51:21.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Mar-2017 09:51:21.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:51:21.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:51:21.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+23-Mar-2017 09:51:21.850 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+23-Mar-2017 09:51:22.029 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:51:22.057 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 09:51:22.060 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:51:22.063 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 09:51:22.063 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 718 ms
+23-Mar-2017 09:51:22.098 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+23-Mar-2017 09:51:22.099 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+23-Mar-2017 09:51:22.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+23-Mar-2017 09:51:22.637 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:51:22.681 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 570 ms
+23-Mar-2017 09:51:22.681 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+23-Mar-2017 09:51:22.841 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:51:22.844 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 163 ms
+23-Mar-2017 09:51:22.845 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+23-Mar-2017 09:51:22.989 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:51:22.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 146 ms
+23-Mar-2017 09:51:22.992 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+23-Mar-2017 09:51:23.126 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:51:23.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 139 ms
+23-Mar-2017 09:51:23.132 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+23-Mar-2017 09:51:23.279 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:51:23.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 151 ms
+23-Mar-2017 09:51:23.283 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+23-Mar-2017 09:51:23.652 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:51:23.672 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 389 ms
+23-Mar-2017 09:51:23.678 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+23-Mar-2017 09:51:23.690 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+23-Mar-2017 09:51:23.693 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1626 ms
+23-Mar-2017 09:52:43.701 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.reload Reloading context []
+23-Mar-2017 09:52:43.702 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+23-Mar-2017 09:52:43.843 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:52:43.847 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+23-Mar-2017 09:52:44.630 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:52:44.687 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:52:44.738 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+23-Mar-2017 09:52:44.784 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:52:44.786 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:52:44.788 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:52:44.789 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:52:47.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+23-Mar-2017 09:52:47.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+23-Mar-2017 09:52:47.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+23-Mar-2017 09:52:47.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Mar-2017 09:52:47.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+23-Mar-2017 09:52:47.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Mar-2017 09:52:47.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+23-Mar-2017 09:52:47.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+23-Mar-2017 09:52:47.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Mar-2017 09:52:47.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:52:47.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:52:47.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+23-Mar-2017 09:52:47.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Mar-2017 09:52:47.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Mar-2017 09:52:47.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Mar-2017 09:52:47.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:52:47.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 09:52:47.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+23-Mar-2017 09:52:47.059 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+23-Mar-2017 09:52:47.258 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 09:52:47.289 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 09:52:47.293 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 09:52:47.295 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 09:52:47.296 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 747 ms
+23-Mar-2017 09:52:47.331 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+23-Mar-2017 09:52:47.331 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+23-Mar-2017 09:52:47.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+23-Mar-2017 09:52:47.933 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:52:47.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 650 ms
+23-Mar-2017 09:52:47.995 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+23-Mar-2017 09:52:48.210 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:52:48.212 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 217 ms
+23-Mar-2017 09:52:48.213 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+23-Mar-2017 09:52:48.337 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:52:48.339 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 126 ms
+23-Mar-2017 09:52:48.340 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+23-Mar-2017 09:52:48.438 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:52:48.444 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 105 ms
+23-Mar-2017 09:52:48.444 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+23-Mar-2017 09:52:48.563 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:52:48.566 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 122 ms
+23-Mar-2017 09:52:48.566 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+23-Mar-2017 09:52:48.998 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 09:52:49.018 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 452 ms
+23-Mar-2017 09:52:49.024 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+23-Mar-2017 09:52:49.043 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+23-Mar-2017 09:52:49.046 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1749 ms
+23-Mar-2017 10:00:47.707 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 10:00:47.764 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 10:00:47.816 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+23-Mar-2017 10:00:47.862 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 10:00:47.863 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 10:00:47.865 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 10:00:47.867 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 10:00:50.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+23-Mar-2017 10:00:50.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+23-Mar-2017 10:00:50.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+23-Mar-2017 10:00:50.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Mar-2017 10:00:50.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+23-Mar-2017 10:00:50.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Mar-2017 10:00:50.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+23-Mar-2017 10:00:50.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+23-Mar-2017 10:00:50.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Mar-2017 10:00:50.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 10:00:50.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 10:00:50.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+23-Mar-2017 10:00:50.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Mar-2017 10:00:50.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Mar-2017 10:00:50.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Mar-2017 10:00:50.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 10:00:50.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 10:00:50.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+23-Mar-2017 10:00:50.313 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+23-Mar-2017 10:00:50.485 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 10:00:50.503 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 10:00:50.506 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 10:00:50.507 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 10:00:50.508 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 705 ms
+23-Mar-2017 10:00:50.543 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+23-Mar-2017 10:00:50.543 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+23-Mar-2017 10:00:50.558 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+23-Mar-2017 10:00:50.969 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 410 ms
+23-Mar-2017 10:00:50.969 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+23-Mar-2017 10:00:51.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 33 ms
+23-Mar-2017 10:00:51.003 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+23-Mar-2017 10:00:51.023 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 21 ms
+23-Mar-2017 10:00:51.024 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+23-Mar-2017 10:00:51.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 41 ms
+23-Mar-2017 10:00:51.066 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+23-Mar-2017 10:00:51.311 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 10:00:51.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 250 ms
+23-Mar-2017 10:00:51.315 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+23-Mar-2017 10:00:51.609 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 294 ms
+23-Mar-2017 10:00:51.613 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+23-Mar-2017 10:00:51.628 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+23-Mar-2017 10:00:51.631 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1123 ms
+23-Mar-2017 10:48:50.763 SEVERE [http-nio-8080-exec-1] org.apache.tomcat.websocket.pojo.PojoEndpointBase.onError No error handling configured for [websocket.echo.EchoAnnotation] and the following error occurred
+ java.io.IOException: java.io.IOException: Broken pipe
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:315)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:258)
+	at org.apache.tomcat.websocket.WsSession.sendCloseMessage(WsSession.java:592)
+	at org.apache.tomcat.websocket.WsSession.onClose(WsSession.java:512)
+	at org.apache.tomcat.websocket.WsFrameBase.processDataControl(WsFrameBase.java:341)
+	at org.apache.tomcat.websocket.WsFrameBase.processData(WsFrameBase.java:283)
+	at org.apache.tomcat.websocket.WsFrameBase.processInputBuffer(WsFrameBase.java:127)
+	at org.apache.tomcat.websocket.server.WsFrameServer.onDataAvailable(WsFrameServer.java:73)
+	at org.apache.tomcat.websocket.server.WsHttpUpgradeHandler.upgradeDispatch(WsHttpUpgradeHandler.java:148)
+	at org.apache.coyote.http11.upgrade.UpgradeProcessorInternal.dispatch(UpgradeProcessorInternal.java:54)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:53)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:798)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1441)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: Broken pipe
+	at sun.nio.ch.FileDispatcherImpl.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:47)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:471)
+	at org.apache.tomcat.util.net.NioChannel.write(NioChannel.java:134)
+	at org.apache.tomcat.util.net.NioBlockingSelector.write(NioBlockingSelector.java:101)
+	at org.apache.tomcat.util.net.NioSelectorPool.write(NioSelectorPool.java:157)
+	at org.apache.tomcat.util.net.NioEndpoint$NioSocketWrapper.doWrite(NioEndpoint.java:1245)
+	at org.apache.tomcat.util.net.SocketWrapperBase.doWrite(SocketWrapperBase.java:670)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flushBlocking(SocketWrapperBase.java:607)
+	at org.apache.tomcat.util.net.SocketWrapperBase.flush(SocketWrapperBase.java:597)
+	at org.apache.tomcat.websocket.server.WsRemoteEndpointImplServer.doWrite(WsRemoteEndpointImplServer.java:95)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:494)
+	at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:309)
+	... 17 more
+
+23-Mar-2017 10:49:33.070 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 10:49:33.073 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 10:49:33.124 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+23-Mar-2017 10:49:33.135 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [ROOT] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Mar-2017 10:49:33.137 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [ROOT] appears to have started a thread named [Abandoned connection cleanup thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:143)
+ com.mysql.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:64)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+ java.lang.Thread.run(Thread.java:745)
+23-Mar-2017 10:49:33.254 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 10:49:33.257 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 10:49:33.259 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 10:49:33.259 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 10:49:37.068 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.12
+23-Mar-2017 10:49:37.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 8 2017 17:41:47 UTC
+23-Mar-2017 10:49:37.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.12.0
+23-Mar-2017 10:49:37.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+23-Mar-2017 10:49:37.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+23-Mar-2017 10:49:37.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Mar-2017 10:49:37.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_121/jre
+23-Mar-2017 10:49:37.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_121-b13
+23-Mar-2017 10:49:37.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Mar-2017 10:49:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 10:49:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 10:49:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/conf/logging.properties
+23-Mar-2017 10:49:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Mar-2017 10:49:37.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Mar-2017 10:49:37.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Mar-2017 10:49:37.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 10:49:37.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat
+23-Mar-2017 10:49:37.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/temp
+23-Mar-2017 10:49:37.074 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+23-Mar-2017 10:49:37.290 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 10:49:37.314 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 10:49:37.318 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 10:49:37.320 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+23-Mar-2017 10:49:37.321 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 820 ms
+23-Mar-2017 10:49:37.361 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+23-Mar-2017 10:49:37.361 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.12
+23-Mar-2017 10:49:37.371 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager
+23-Mar-2017 10:49:37.928 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/manager has finished in 557 ms
+23-Mar-2017 10:49:37.929 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager
+23-Mar-2017 10:49:37.971 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/host-manager has finished in 42 ms
+23-Mar-2017 10:49:37.974 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs
+23-Mar-2017 10:49:38.004 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/docs has finished in 30 ms
+23-Mar-2017 10:49:38.004 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest
+23-Mar-2017 10:49:38.055 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/interllitest has finished in 51 ms
+23-Mar-2017 10:49:38.056 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT
+23-Mar-2017 10:49:38.285 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Mar-2017 10:49:38.290 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/ROOT has finished in 235 ms
+23-Mar-2017 10:49:38.291 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples
+23-Mar-2017 10:49:38.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/kinthon/github/java_back_end_learning/java_web_framework/java_servlet_jsp/tomcat/webapps/examples has finished in 294 ms
+23-Mar-2017 10:49:38.589 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+23-Mar-2017 10:49:38.598 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+23-Mar-2017 10:49:38.601 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1279 ms
+23-Mar-2017 10:49:49.661 INFO [Async0-Thread] async.Async0$1.run Putting AsyncThread to sleep
+23-Mar-2017 10:49:51.663 INFO [Async0-Thread] async.Async0$1.run Dispatching
+23-Mar-2017 10:49:51.673 INFO [http-nio-8080-exec-3] async.Async0.service Received dispatch, completing on the worker thread.
+23-Mar-2017 10:49:51.673 INFO [http-nio-8080-exec-3] async.Async0.service After complete called started:false
+23-Mar-2017 11:01:12.475 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 11:01:12.531 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 11:01:12.582 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+23-Mar-2017 11:01:12.629 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 11:01:12.633 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+23-Mar-2017 11:01:12.638 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Mar-2017 11:01:12.639 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
