@@ -3,7 +3,7 @@ package Service;
 import bean.Addresslist;
 
 /**
- * Created by gavin on 15-6-18.
+ * Created by kinthon on 17-3-31.
  */
 public interface Address {
     public void add(Addresslist al);
