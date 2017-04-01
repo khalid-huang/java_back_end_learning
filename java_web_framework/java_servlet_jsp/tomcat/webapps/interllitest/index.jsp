@@ -8,9 +8,25 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>$Title$</title>
+    <title>我是title</title>
   </head>
   <body>
-  $END$
+    <h1>大家好</h1>
+    <!-- 我是HTML注释，在客户端可见 -->
+    <%-- 我是JSP 注释，客户端不可见--%>
+    <%!
+      //这里是JSP定义的变量和方法
+      String s = "张三";
+      int add(int x, int y)
+      {
+        return x + y;
+      }
+
+    %>
+    <%
+      //这里是JSP脚本区
+      out.println("大家好，开始学习");
+    %>
+    x+y=<%=add(10,5) %>
   </body>
 </html>
