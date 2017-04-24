@@ -76,3 +76,25 @@ emue PayrooDay {
   WEDNESDAY(PayType.WEEKDAY), THURSDAY(PayType.WEEKDAY),
 
 }
+
+
+//使用接口模拟可伸缩的枚举
+public interface Operation {
+  double apply(double, double y);
+}
+
+public enum BasicOperation implements Operation {
+  PLUS("+") {
+    public double apply(double x, double y) {
+      return x + y;
+    }
+  },
+  ....
+  private final String symbol;
+  BasicOperation(String symbol) {
+    this.symbol = symbol;
+  }
+  @Override public String toString() {
+    return symbol;
+  }
+}
