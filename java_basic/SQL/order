@@ -1,0 +1,80 @@
+// where语句多条件
+UPDATE memberDetails
+Set State = 'Mega State'
+WHERE
+State = 'Small State'
+OR
+State = 'Stateside';
+
+//SELECT DISTINCT
+SELECT DISTINCT City, MemberId FROM MemberDetails;
+
+
+//AND比OR有更高的优先级
+SELECT State, DateOfJoining
+FROM MemberDetails
+WHERE (State = 'New State' OR State = 'Golden State')
+AND DateOfJoining >= '2005-08-01'
+
+
+//NOT与<>相同
+SELECT FirstName
+FROM MemberDetails
+WHERE NOT State = 'GoldenState'; 或是使用 WHERE State <> 'Golden State';
+
+//BETWEEN
+SELECT FilitiName, Rating
+FROM Films
+WHERE Rating BETWEEN 3 AND 5
+
+//LINK使用通配符
+SELECT LastName FROM MemberDetails
+WHERE LastName LIKE 'J%' //%贪婪性匹配；*非贪婪性匹配
+
+//IN的功能相同于OR，但是更加简洁
+SELECT City
+FROM MemtoerDetails
+WHERE City IN ('Townsville', 'Windy Village');
+
+
+//ORDER BY不影响输出内容，只是对内容进行了排序
+SELECT YearReleased
+FROM Films
+ORDER BY YearRelesased, Rating  ASC; //多个列; ASC表示升序排序
+
+//内部联合，INNER JOIN关键字指明了应当被联合的两个表，后面的ON关键字指明了联合两个表的列，也就是联合条件
+SELECT FilmName, YearReleased, Rating
+FROM Fimls INNER JOIN Catergory
+ON Films.CategoryId = category.CategoryId
+WHERE Category.CategoryId = 6
+
+//左联合
+
+//右联合
+
+
+//NULL的种种；首先要明白，SQL不允许数据不包含值，没有特定值的字段实际上具有值，也就是NULL,NULL与什么都没有不是一回事，NULL表示未知。
+
+
+//三种范式(http://www.cnblogs.com/zhhh/archive/2011/04/21/2023355.html  , http://blog.jobbole.com/93956/)
+第一范式：属性不可分，是最基本的范式，要求数据库中的所有字段值都是不可分解的原子值；比如地址应该要被分解为省份-城市-详细地址
+
+第二范式：非主属性完全依赖于主键，是在第一范式的基础上更进一步，要求数据库表中的每一列都和主键相关，而不是能只与主键的某一部分相关
+
+第三范式：属性不依赖于其他非主属性（消除传递依赖），数据表中的每一列数据都和主键直接相关，而不能间接相关
+
+
+原子性，唯一主键，不可重复
+
+
+//利用约束确保数据的有效性
+1) NOT NULL
+2) UNIQUE
+3) PRIMEARY KEY约束：主键提供了表之间的链接，必须惟一标识一个记录，它是UNIQUE和NOT NULL的组合
+
+//分组和汇总
+1) GROUP BY子句中的列的顺序将影响结果的顺序，但不改变结果的内容
+SELECT State
+FROM MemberDetails
+WHERE State IN ('MEga State', 'Golden State')
+GROUP BY State
