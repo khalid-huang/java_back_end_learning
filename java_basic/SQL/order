@@ -48,10 +48,25 @@ FROM Fimls INNER JOIN Catergory
 ON Films.CategoryId = category.CategoryId
 WHERE Category.CategoryId = 6
 
-//左联合
+//交叉联合，CROSS JOIN
+SELECT Category, Street
+FROM Category CROSS JOIN Location
+ORDER BY Street;
 
-//右联合
+//自联合
 
+//外部联合：左联合, OUTER JOIN语句左边表中的所有记录都被返回在结果中，无论在OUTER JOIN语句右边的表中存在一个匹配记录; 当在外部联合右边表中不存在 匹配时，返回NULL值，尽管在您 的数据库系统中可能只看到一个空格，但所返回的值是NULL.
+SELECT Location.Street, MemberDetails.Street
+FROM Location LEFT OUTER JOIN MemberDetails
+ON Location.Street = MemberDetails.Street
+
+
+//外部联合：右联合; 与左联合一样，只是左右相反
+
+//完全外部联合：
+SELECT Location.Street, MemberDetails.Street
+FROM Location FULL OUTER JOIN MemberDetails
+On Location.Street = MemberDetails.Street;
 
 //NULL的种种；首先要明白，SQL不允许数据不包含值，没有特定值的字段实际上具有值，也就是NULL,NULL与什么都没有不是一回事，NULL表示未知。
 
@@ -78,3 +93,27 @@ SELECT State
 FROM MemberDetails
 WHERE State IN ('MEga State', 'Golden State')
 GROUP BY State
+
+
+//子查询
+1) select语句中的
+SELECT FilmName, PlotSummary, (SELECT Email FROM MemberDetails WHERE MemberId=1)
+FROM Films;
+2) where 语句中的
+SELECT Category, FilmName, DVDPrice
+FROM Category INNER JOIN Films
+ON Category.CategoryId = Films.CategoryId
+WHERE Films.DVDPrice = 
+	(SELECT MIN(DVDPRICE) FROM Films WHERE Films.CategoryId=Category.CategoryId)
+//运算符
+1) IN, ANY, SOME, ALL（而且ANY, SOME, ALL可以使用任何比较运算符）
+SELECT FirstName, LastName, YEAR(DateOfBirth)
+FROM MemberDetails
+WHERE YEAR(DateOfBirth) IN (1967,1989)
+
+SELECT FirstName, LastName, YEAR(DateOfBirth)
+FROM MemberDetails
+WHERE YEAR(DateOfBirth) = ANY (SELECT YearReleased FROM Films)
+
+
+
