@@ -1,0 +1,7 @@
+1,导入数据库文件：
+	mysql -u root -qqinkai
+	show databases;
+	use TESTDB;
+	source lostfound.sql;
+
+2,修改自己的数据库信息，在resource里面的db.property里面
