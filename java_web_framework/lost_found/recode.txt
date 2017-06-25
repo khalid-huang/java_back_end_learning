@@ -5,3 +5,20 @@
 	source lostfound.sql;
 
 2,修改自己的数据库信息，在resource里面的db.property里面
+
+
+
+学习：
+1）applicationContext.xml文件：
+	对于前面的xmlns这些东西 呢，xmlns:xxx其实是xml的命名空间，也就是使用spring哪些模块的内容了；
+	<context:component-scan base-package="com.phn.action" /> 这个的配置作用是：配置之后呢，spring可以自动去扫描base-package下面或者子包下面的Java文件，如果扫描到有@Component @Controller @Service 等这些注解的类，则把这些类注册为bean
+	<context:annotation-config />:显式地向Spring容器注册AutowiredAnnotationBeanPostProcessor, CommonAnnotationBeanPostProcessor,PersistenceAnnotationBEanPostProcessor，以及RequiredAnnotationBeanPostProcessor这4个BeanPostProcessor http://mushiqianmeng.blog.51cto.com/3970029/723880
+	bean参考S2S4H里面的553页；每个Bean对应Spring容器里面的一个Java实例，id是标识符，而class表示指定该bean的实现类
+2）http://iswift.iteye.com/blog/1657537
+3) c3p0是一个数据连接池，参考http://www.cnblogs.com/tony-law/archive/2012/08/27/2658628.html
+4）sessionFactory, session,和dataSource的关系： https://zhidao.baidu.com/question/307379684.html
+5）与前端相关的action是在struct里面进行设置的，也就是所谓的MVC；
+
+
+前端知识的：
+1）iframe里面的action是会直接触发，发起请求的，在index里面，iframe的src里面指定了goods_GetLastGoodsIndex.action,发起了这个请求到后台被拦截到了，配置到structs.xml里面的goods_*，通过method={1}选择调用了class:goodsAction里面的GetLastGoodsIndex的方法，该方法返回了goods_getLastGoodsIndex_success,匹配到了struts.xml里面的name="goods_getLastGoodsIndex_success"返回到index_lastnews.jsp对应的html，从而生成一个iframe

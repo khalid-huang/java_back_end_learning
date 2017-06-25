@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+ <constant name="struts.devMode" value="true" />
+ 
+	 <package name="default" namespace="/" extends="struts-default">
+	<action name="*_*" class="userAction" method="{2}">
+		<result name="suc">
+		/{1}_{2}.jsp
+		</result>
+		<result name="list" type="redirectAction">
+			/User_list.action
+		</result>
+		<result name="fail">
+			/error.jsp
+		</result>
+		<result name="login">
+			/index.jsp
+		</result>
+	</action>
+	 <!--
+        <action name="login" class="userAction" method="login">
+            <result name="suc">
+                /index.jsp
+            </result>
+            <result name="fail">
+            /login.jsp
+            </result>
+        </action>
+        <action name="add" class="userAction" method="add">
+            <result name="suc">
+                /suc.jsp
+            </result>
+            <result name="fail">
+            /index.jsp
+            </result>
+        </action>
+        <action name="list" class="userAction" method="userList">
+            <result name="list">
+                /list.jsp
+            </result>
+            <result name="fail">
+            /index.jsp
+            </result>
+        </action>
+    -->
+    </package>
+</struts>    
