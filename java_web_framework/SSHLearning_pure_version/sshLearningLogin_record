@@ -12,8 +12,3 @@
 	b)Action传到jsp里面:http://blog.csdn.net/hewei0241/article/details/27331019
 ii)@scope:prototype:https://my.oschina.net/u/916895/blog/102979
 
-
-sql文件使用
-1) mysql -u root -p
-use TESTDB
-source SEL.sql
