@@ -6,19 +6,20 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
     <title>Title</title>
 </head>
 <body>
-<form action="user_login.action" method="post">
-    <input type="text" name="username" placeholder="输入用户名" />
+<s:form action="user_login" method="post">
+    <s:textfield name="user.username" key="用户名" placeholder="输入用户名" />
     <br/>
-    <input type="password" name="password" placeholder="输入密码" />
+    <s:password name="user.password" key="密码"  placeholder="输入密码" />
     <br />
-    <input type="submit" value="登录">
-    <input type="reset" value="重置">
-</form>
+    <s:submit value="登录" />
+    <s:reset value="重置" />
+</s:form>
 </body>
 </html>
 
